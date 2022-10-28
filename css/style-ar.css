@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "VIP-Hakm-Bold";
+    src: url(../assets/fonts/al-jazeera-arabic/ArbFONTS-4_F0.html);
+    font-style: normal;
+    font-weight: 100;
+}
+
+* {
+    font-family: "VIP-Hakm-Bold";
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
+
+.phone-div-flow-imgs {
+    transform: scale(1) !important;
+}
+
+.title-catogry h1::after {
+    right: auto !important;
+}
+
+.title-catogry h1 {
+    padding-left: 10px !important;
+    font-size: 16px;
+}
+
+.h2-main-text {
+    font-size: 39px;
+    line-height: 74px;
+    font-weight: bold;
+}
+
+.text-about-div p {
+    font-weight: 500;
+}
+
+.text-about-div ul li {
+    font-weight: 200;
+}
+
+.main-text h2 {
+    line-height: 54px;
+    font-weight: normal;
+}
+
+.show-more {
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.Arw {
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-div .left img {
+    transform: scaleX(-1) !important;
+}
+
+.title-section h1:hover::after {
+    letter-spacing: normal;
+}
+
+.title-section h1::after {
+    color: #033d97;
+    opacity: 1;
+}
+
+.title-catogry h1::after {
+    left: -9px;
+    transform: skew(345deg);
+}
+
+.title-catogry {
+    margin: 25px 0;
+    padding-right: 13px;
+}
+
+.title1::after {
+    content: "خدماتنا";
+}
+
+.title2::after {
+    content: "من نحن";
+}
+
+.title3::after {
+    content: "أعمالنا";
+}
+
+.title4::after {
+    content: " لماذا نحن";
+}
+
+.title5::after {
+    content: "تواصل معنا";
+}
+
+@media (max-width : 800px) {
+    .main-text h2 {
+        font-size: 29px !important;
+        font-weight: 300;
+        line-height: 45px !important;
+    }
+
+    .text-about-div {
+        padding-right: 20px;
+    }
+
+    .text-about-div h3 {
+        font-size: 33px;
+    }
+
+    .point-slide span {
+        width: 8px;
+        height: 8px;
+        margin: 12px 10px;
+    }
+}
